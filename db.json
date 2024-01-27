@@ -1,0 +1,61 @@
+{
+  "notes": [
+    {
+      "id": "L-u69WNX_JZRhqA8gdF-E",
+      "content": "Coding is easy, if you learn from right place new.",
+      "important": true
+    },
+    {
+      "id": "Z8CFLzBHabY1eU0vks8zf",
+      "content": "Browser can execute only JavaScript",
+      "important": false
+    },
+    {
+      "id": "UDZjM2KAEULdvKD7Ziaz0",
+      "content": "GET and POST are the most important methods of HTTP protocol",
+      "important": true
+    },
+    {
+      "id": "yTIpi-sxBKDtJaVdRJ6V_",
+      "content": "Random Note 1706381163973",
+      "important": true
+    }
+  ],
+  "technologies": [
+    {
+      "id": "ECa-r2NMo_b_Qav1oCgWw",
+      "name": "React JS",
+      "stack": "front-end"
+    },
+    {
+      "id": "VYBskhSpHs1Iio2KRm79Q",
+      "name": "Node.js",
+      "stack": "back-end"
+    },
+    {
+      "id": "FihJEBWbAFJHUKpKgZUbn",
+      "name": "MongoDB",
+      "stack": "back-end"
+    },
+    {
+      "id": "RNWZ1o77Dyj5uOg_vniBz",
+      "name": "Angular",
+      "stack": "front-end"
+    },
+    {
+      "id": "HIb0xcLyoo5X-jPwA13RK",
+      "name": "Spring Boot",
+      "stack": "back-end"
+    },
+    {
+      "id": "Q3nIO_-At93F2al-Izzvj",
+      "name": "MEAN Stack",
+      "stack": "full-stack"
+    },
+    {
+      "id": "EiLmDmLRzUOYuu22hNNiO",
+      "name": "MERN Stack",
+      "stack": "full-stack"
+    }
+  ]
+}

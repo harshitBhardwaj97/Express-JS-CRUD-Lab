@@ -1,0 +1,9 @@
+curl -X POST -H "Content-Type: application/json" -d '{"name":"Python", "stack":"back-end"}' http://localhost:1337/technologies
+
+curl -X POST -H "Content-Type: application/json" -d '{"name":"Python"}' http://localhost:1337/technologies
+
+curl -X POST -H "Content-Type: application/json" -d '{"stack":"back-end"}' http://localhost:1337/technologies
+
+curl -X POST -H "Content-Type: application/json" -d '{}' http://localhost:1337/technologies
+
+curl -X POST -H "Content-Type: application/json" -d '{"name":"Python", "stack":"non-existent stack"}' http://localhost:1337/technologies

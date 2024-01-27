@@ -1,0 +1,5 @@
+// For deleting valid note with valid id
+curl -X DELETE http://localhost:1337/notes/UDZjM2KAEULdvKD7Ziaz0
+
+// For deleting valid note with valid invalid id
+curl -X DELETE http://localhost:1337/notes/12345678

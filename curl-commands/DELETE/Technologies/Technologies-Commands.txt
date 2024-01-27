@@ -1,0 +1,5 @@
+// For deleting valid technology with valid id
+curl -X DELETE http://localhost:1337/technologies/EiLmDmLRzUOYuu22hNNiO
+
+// For deleting valid technology with valid invalid id
+curl -X DELETE http://localhost:1337/technologies/12345678

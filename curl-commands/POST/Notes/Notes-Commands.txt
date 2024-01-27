@@ -1,0 +1,14 @@
+// For posting valid note
+curl -X POST -H "Content-Type: application/json" -d '{"content":"new note", "important":true}' http://localhost:1337/notes
+
+// For posting note without content
+curl -X POST -H "Content-Type: application/json" -d '{"important":true}' http://localhost:1337/notes
+
+// For posting note without important
+curl -X POST -H "Content-Type: application/json" -d '{"content":"new note"}' http://localhost:1337/notes
+
+// For posting note without content and important
+curl -X POST -H "Content-Type: application/json" -d '{}' http://localhost:1337/notes
+
+// For posting note with invalid important value
+curl -X POST -H "Content-Type: application/json" -d '{"content":"new note curl", "important":"non-boolean"}' http://localhost:1337/notes

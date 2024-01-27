@@ -1,0 +1,5 @@
+// For updating valid note with valid id
+curl -X PUT -H "Content-Type: application/json" -d '{"content":"updated note", "important":true}' http://localhost:1337/notes/UDZjM2KAEULdvKD7Ziaz0
+
+// For updating valid note with invalid id
+curl -X PUT -H "Content-Type: application/json" -d '{"content":"updated note", "important":true}' http://localhost:1337/notes/123

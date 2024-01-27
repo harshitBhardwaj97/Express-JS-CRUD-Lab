@@ -1,0 +1,14 @@
+// For posting valid note
+curl -X POST -H "Content-Type: application/json" -d '{"name":"Python", "stack":"back-end"}' http://localhost:1337/technologies
+
+// For posting technology without name
+curl -X POST -H "Content-Type: application/json" -d '{"stack":"back-end"}' http://localhost:1337/technologies
+
+// For posting note without stack
+curl -X POST -H "Content-Type: application/json" -d '{"name" : "Python"}' http://localhost:1337/technologies
+
+// For posting note without name and stack
+curl -X POST -H "Content-Type: application/json" -d '{}' http://localhost:1337/technologies
+
+// For posting note with invalid stack value
+curl -X POST -H "Content-Type: application/json" -d '{"name":"Rust", "stack":"system-programming"}' http://localhost:1337/technologies

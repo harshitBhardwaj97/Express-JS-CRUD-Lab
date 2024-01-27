@@ -1,0 +1,5 @@
+// For updating valid note with valid id
+curl -X PUT -H "Content-Type: application/json" -d '{"name":"JAVA", "stack":"back-end"}' http://localhost:1337/technologies/HIb0xcLyoo5X-jPwA13RK
+
+// For updating valid note with invalid id
+curl -X PUT -H "Content-Type: application/json" -d '{"name":"JAVA", "stack":"back-end"}' http://localhost:1337/technologies/123
